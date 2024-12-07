@@ -40,7 +40,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("Induwa-MD Bot Connecting...");
+console.log("Hashan-MD Bot Connecting...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -70,7 +70,7 @@ require("./plugins/" + plugin);
 console.log('Hashan-MD Bot Installed Successful ✅')
 console.log('Hashan-MD Bot Connected To WhatsApp ✅')
 
-let up = `*Hashan-MD Bot Connected Successful ✅*\n\n*Prefix: ${prefix}*`;
+let up = `*Hashan-MD Bot Connected Successful ✅ Owner : Hashan Sathsara*\n\n*Prefix: ${prefix}*`;
 
 conn.sendMessage("94707230540@s.whatsapp.net", { image: { url: `https://telegra.ph/file/900435c6d3157c98c3c88.jpg` }, caption: up })
 
