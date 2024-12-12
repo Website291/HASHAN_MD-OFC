@@ -7,7 +7,7 @@
 
   "env": {
     "SESSION_ID": {
-            "description": "K7YTkLSQ#1-H17-ypfzr991W8A4Zyg5vTzel0QnraYyaSuYdzGrc"
+            "description": "K7YTkLSQ#1-H17-ypfzr991W8A4Zyg5vTzel0QnraYyaSuYdzGrc",
             "required": true,
             "value": "K7YTkLSQ#1-H17-ypfzr991W8A4Zyg5vTzel0QnraYyaSuYdzGrc"
         },
